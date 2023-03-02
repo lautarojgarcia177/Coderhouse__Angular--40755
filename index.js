@@ -47,6 +47,10 @@ const juanSebastian = {
       console.log("No hay dinero suficiente para ir al veterinario");
     }
   },
+  hacerRegalo: function (persona, regalo) {
+    // console.log(`Juan le regalo ${regalo} a ${persona}`);
+    console.log("Juan le regalo " + regalo + " a " + persona);
+  }
 };
 
 // De esta manera insertamos un objeto en un arreglo
@@ -62,3 +66,7 @@ juanSebastian.irAlVeterinario(1000000);
 juanSebastian.irAlVeterinario(900000);
 
 console.log(juanSebastian);
+
+// Funcion con dos parametros
+juanSebastian.hacerRegalo('Sebastian', 'Cafe');
+
